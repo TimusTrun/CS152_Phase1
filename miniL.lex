@@ -13,7 +13,7 @@ LETTER      [a-zA-Z]
 IDENTIFIER  ({LETTER})({LETTER}|{DIGIT}|"_")*
 START       ({DIGIT}|"_")+{IDENTIFIER}
 END         {IDENTIFIER}+("_")
-WHITESPACE  [\s\S ]
+WHITESPACE  [\s\S\t\T ]
 COMMENT     ##.*
 
 
